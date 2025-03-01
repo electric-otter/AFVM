@@ -12,7 +12,7 @@ SRCS = $(wildcard src/*.c)
 OBJS = $(SRCS:.c=.o)
 
 # Target executable
-TARGET = vm_app.exe
+# Removed cause its not needed
 
 # Default rule
 all: $(TARGET)
