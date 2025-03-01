@@ -3,4 +3,6 @@
 
 int main() {
     int gd = DETECT, gm;
-    initgraph(&gd, &gm, "C:\\tc\\bgi"); // Initialize graphics mode
+    
+    // Initialize graphics mode
+    initgraph(&gd, &gm, NULL);
